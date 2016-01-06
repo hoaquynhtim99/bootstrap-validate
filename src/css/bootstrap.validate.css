@@ -1,0 +1,40 @@
+﻿/**
+ * @Project BOOTSTRAP VALIDATE
+ * @Author PHAN TAN DUNG (phantandung92@gmail.com)
+ * @Copyright (C) 2014 PHAN TAN DUNG. All rights reserved
+ * @License GNU/GPL version 2 or any later version
+ * @Createdate Dec 01, 2014, 04:33:14 AM
+ */
+
+/*--- Fix Form ---*/
+.form-horizontal .control-label{
+	font-weight: 700;
+}
+.form-horizontal .control-label .fa{
+	color: #B0171F;
+	font-weight: normal;
+	font-size: 10px;
+}
+.form-horizontal .ckeditor .control-label{
+	padding-top: 0;
+	margin-bottom: 7px;
+}
+.form-horizontal .ckeditor .control-label .fa{
+	position: relative;
+	top: -1px;
+}
+.form-horizontal .checkbox input[type="checkbox"]{
+	margin-top: 1px;
+}
+.form-horizontal .help-block{
+	margin-bottom: 0;
+}
+.form-horizontal .loading{
+	display: none;
+}
+div.tooltip.bottom{
+	left: 5px!important;
+}
+div.tooltip.bottom div.tooltip-arrow{
+	left: 15px!important;
+}
